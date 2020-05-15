@@ -1,0 +1,19 @@
+.header {
+    grid-column: start-bleed/ span 2;
+    background-color:  #1A1A1A;
+    color: white;
+    padding : 5.1rem;
+    
+    &__intro {  
+        width: min-content;
+        margin-left: auto;
+        margin-top: 6.1rem;
+        &__name {
+           font-size: 14rem; 
+        }
+        &__detail {
+           font-size: 1.6rem;
+           line-height: 2.4rem;
+        }
+    }
+}

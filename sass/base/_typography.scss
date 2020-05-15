@@ -1,0 +1,33 @@
+$font-one : 'Inter', 'sans-serif';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter');
+
+
+
+.header {
+    font-family: $font-one;
+}
+
+.feature {
+    font-family: $font-one; 
+    &__title {
+        font-size: 2.5rem;
+        font-family: $font-one; 
+    }
+    &__lead {
+        font-size: 2.8rem;
+    }
+    &__paragraph {
+        font-size: 1.6rem;
+    }
+    &__button {
+        font-size: 1.6rem;
+    }
+}
+
+.recent {
+    &__title {
+        font-size: 2.5rem;
+        font-family: $font-one; 
+    }
+}

@@ -1,0 +1,53 @@
+
+
+.recent {
+    grid-column: start-bleed / span 2;
+    text-align: center;
+    background-color:  #1F1F1F;
+    &__title {
+        margin-top: -2rem;
+        background-color:  #1F1F1F;
+        display: inline;       
+        color: white;
+        padding: 1rem;
+    }
+    &__grid {
+        background-color: #1A1A1A;
+        &__box {
+            padding: 3rem;
+            &__item {
+                display: flex;
+                text-align: left;
+                color: white;
+                
+           
+                &__indi {
+                    img {
+                        max-width: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+            &__item2 {
+                display: flex;
+                text-align: left;
+                color: white;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+.footer {
+    margin: 0 2rem 0 2rem;
+    background-color: #1F1F1F;
+    text-align: center;
+    color: white;
+    &__in {
+        display: flex;
+        justify-content: center;
+    }
+    &__last {
+        display: flex;
+    }
+}

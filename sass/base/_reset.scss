@@ -1,0 +1,26 @@
+*, *::after, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media screen and (max-width: 90em) {
+        font-size: 50%;
+    }
+    @media screen and (max-width: 55em) {
+        font-size: 35%;
+    }
+    @media screen and (max-width: 40em) {
+        font-size: 25%;
+    }
+
+}
+
+body {
+    line-height: 1;
+    margin: 5rem;
+}
