@@ -2,6 +2,10 @@
     display : grid;
     grid-template-columns: repeat(2, [start-bleed] 50%  [end-bleed] );
     grid-template-rows: minmax(calc(100vh - 10rem), min-content) repeat(2, min-content);
+
+    @media screen and (max-width: 40em) {
+        grid-template-rows: 100vh repeat(2, min-content);
+    }
 }
 
 
