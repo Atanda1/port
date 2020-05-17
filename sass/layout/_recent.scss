@@ -22,6 +22,7 @@
                 
            
                 &__indi {
+                    color: white;
                     img {
                         max-width: 100%;
                         width: 100%;
@@ -46,8 +47,10 @@
     &__in {
         display: flex;
         justify-content: center;
+        font-size: 2rem;
     }
     &__last {
         display: flex;
+        font-size: 1.5rem;
     }
 }

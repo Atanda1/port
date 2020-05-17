@@ -47,8 +47,17 @@ $font-one : 'Inter', 'sans-serif';
 }
 
 .recent {
+    font-family: $font-one;
     &__title {
         font-size: 2.5rem;
         font-family: $font-one; 
+    }
+    
+}
+
+.footer {
+    h3 {
+       // font-size: 2.4rem;
+        margin-bottom: 1rem;
     }
 }
