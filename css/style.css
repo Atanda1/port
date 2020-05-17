@@ -34,6 +34,11 @@ body {
   line-height: 1;
   margin: 5rem;
 }
+@media screen and (max-width: 40em) {
+  body {
+    margin: 0rem;
+  }
+}
 
 .header {
   font-family: "Inter", "sans-serif";
