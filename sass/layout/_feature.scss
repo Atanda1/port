@@ -6,6 +6,10 @@
     @media screen and (max-width: 60em) {
         grid-column: 1/-1;
     }
+    @media screen and (max-width: 64em) {
+        padding-left: 4rem
+    }
+
     &__div {
         padding-bottom: 8rem;
     }
@@ -16,7 +20,7 @@
         margin-bottom: 5.6rem;
     }
     &__paragraph {
-        line-height: 2.8rem;
+       
         color: #333333;
         margin-bottom: 1.2rem;
         font-weight: 200;

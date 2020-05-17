@@ -7,13 +7,22 @@
     &__intro {  
         width: min-content;
         margin-left: auto;
-        margin-top: 6.1rem;
+        margin-top: 25rem;
+        align-self: center;
+        @media screen and (min-width: 65em) {
+            margin-top: 6.1rem;  
+        }
         &__name {
            font-size: 14rem; 
         }
         &__detail {
            font-size: 1.6rem;
            line-height: 2.4rem;
+           @media screen and (max-width: 64em) {
+            font-size: 3rem;
+            line-height: 3.4rem;
+            margin-top: 1rem;
+        }
         }
     }
 }

@@ -9,17 +9,22 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
-@media screen and (max-width: 90em) {
+@media screen and (max-width: 75em) {
   html {
     font-size: 50%;
   }
 }
 @media screen and (max-width: 55em) {
   html {
-    font-size: 35%;
+    font-size: 40%;
   }
 }
 @media screen and (max-width: 40em) {
+  html {
+    font-size: 30%;
+  }
+}
+@media screen and (max-width: 20em) {
   html {
     font-size: 25%;
   }
@@ -44,11 +49,44 @@ body {
 .feature__lead {
   font-size: 2.8rem;
 }
+@media screen and (max-width: 64em) {
+  .feature__lead {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 50em) {
+  .feature__lead {
+    font-size: 3rem;
+  }
+}
 .feature__paragraph {
   font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+@media screen and (max-width: 64em) {
+  .feature__paragraph {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 50em) {
+  .feature__paragraph {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
 }
 .feature__button {
   font-size: 1.6rem;
+}
+@media screen and (max-width: 64em) {
+  .feature__button {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 50em) {
+  .feature__button {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
 }
 
 .recent__title {
@@ -67,7 +105,7 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(2, [start-bleed] 50% [end-bleed]);
-  grid-template-rows: calc(100vh) repeat(2, min-content);
+  grid-template-rows: minmax(calc(100vh - 10rem), min-content) repeat(2, min-content);
 }
 
 .recent {
@@ -127,7 +165,13 @@ body {
 .header__intro {
   width: min-content;
   margin-left: auto;
-  margin-top: 6.1rem;
+  margin-top: 25rem;
+  align-self: center;
+}
+@media screen and (min-width: 65em) {
+  .header__intro {
+    margin-top: 6.1rem;
+  }
 }
 .header__intro__name {
   font-size: 14rem;
@@ -135,6 +179,13 @@ body {
 .header__intro__detail {
   font-size: 1.6rem;
   line-height: 2.4rem;
+}
+@media screen and (max-width: 64em) {
+  .header__intro__detail {
+    font-size: 3rem;
+    line-height: 3.4rem;
+    margin-top: 1rem;
+  }
 }
 
 .header__nav {
@@ -154,6 +205,11 @@ body {
     grid-column: 1/-1;
   }
 }
+@media screen and (max-width: 64em) {
+  .feature {
+    padding-left: 4rem;
+  }
+}
 .feature__div {
   padding-bottom: 8rem;
 }
@@ -164,7 +220,6 @@ body {
   margin-bottom: 5.6rem;
 }
 .feature__paragraph {
-  line-height: 2.8rem;
   color: #333333;
   margin-bottom: 1.2rem;
   font-weight: 200;
