@@ -180,10 +180,14 @@ body {
   display: flex;
   justify-content: center;
   font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.footer__in h4 {
+  font-size: 1.3rem;
 }
 .footer__last {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .header {
